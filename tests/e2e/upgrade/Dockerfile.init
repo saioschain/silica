@@ -1,0 +1,12 @@
+# argument to provide specific version of evmos node
+ARG INITIAL_VERSION
+FROM tharsishq/evmos:$INITIAL_VERSION
+
+WORKDIR /go/src/github.com/evmos/evmos
+
+COPY ./init-node.sh .
+
+# JSON-RPC server
+EXPOSE 8545
+
+CMD ["sh", "./init-node.sh"]

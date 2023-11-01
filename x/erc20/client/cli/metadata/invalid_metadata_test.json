@@ -1,0 +1,21 @@
+{
+  "metadata": [
+    {
+      "description": 1,
+      "denom_units": [
+        {
+          "denom": "asai",
+          "exponent": 0
+        },
+        {
+          "denom": "sai",
+          "exponent": 18
+        }
+      ],
+      "base": "asai",
+      "display": "asai",
+      "name": "asai",
+      "symbol": "SAI"
+    }
+  ]
+}
